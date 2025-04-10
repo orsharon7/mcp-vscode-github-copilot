@@ -1,4 +1,5 @@
 # Enterprise-Grade AI Extensibility with GitHub Copilot and Model Context Protocol (MCP)
+![GitHub Copilot Enterprise Integration](media/banner.png)
 
 ## Building Technical Augmentation Layers for AI Systems
 

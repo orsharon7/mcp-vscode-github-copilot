@@ -24,6 +24,19 @@ The Model Context Protocol implements a client-server architecture with three pr
 * **Tools**: Function endpoints with strongly-typed input/output contracts that LLMs can programmatically invoke after user authorization
 * **Prompts**: Templated instruction sets for enhancing AI agent capabilities with domain-specific guidance
 
+## Enterprise MCP Extension Architecture
+
+![MCP Architecture Diagram](media/MCP_Architecture.png)
+
+The MCP architecture enables secure, controlled access to enterprise systems and data while maintaining clear separation of concerns. This pattern can be extended to integrate with:
+
+- **Internal Knowledge Bases**: Connect Copilot to proprietary documentation and company wikis
+- **Enterprise Data Warehouses**: Enable AI querying of business intelligence with proper authorization
+- **Custom Toolchains**: Integrate with internal build systems, deployment pipelines, and monitoring tools
+- **Legacy Systems**: Create MCP wrappers around existing enterprise systems with RESTful or RPC interfaces
+- **Authentication Services**: Implement company SSO and access control for AI-driven operations
+
+
 ## Technical Implementation Guide
 
 ### 1. Install UV Package Manager and Set Up Python Environment
@@ -226,15 +239,3 @@ Once your MCP server infrastructure is properly configured, your AI assistant ca
 - [GitHub MCP Server Implementation Repository](https://github.com/github/github-mcp-server)
 - [Model Context Protocol Technical Specification](https://modelcontextprotocol.io/introduction)
 - [VSCode MCP Integration Documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
-
-## Enterprise MCP Extension Architecture
-
-![MCP Architecture Diagram](media/MCP_Architecture.png)
-
-The MCP architecture enables secure, controlled access to enterprise systems and data while maintaining clear separation of concerns. This pattern can be extended to integrate with:
-
-- **Internal Knowledge Bases**: Connect Copilot to proprietary documentation and company wikis
-- **Enterprise Data Warehouses**: Enable AI querying of business intelligence with proper authorization
-- **Custom Toolchains**: Integrate with internal build systems, deployment pipelines, and monitoring tools
-- **Legacy Systems**: Create MCP wrappers around existing enterprise systems with RESTful or RPC interfaces
-- **Authentication Services**: Implement company SSO and access control for AI-driven operations

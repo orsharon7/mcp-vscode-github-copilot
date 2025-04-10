@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "weather": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/weather",
+                "run",
+                "weather.py"
+            ]
+        }
+    }
+}

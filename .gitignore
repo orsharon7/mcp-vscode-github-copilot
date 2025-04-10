@@ -8,7 +8,7 @@ env/
 ENV/
 
 # VSCODE Configuration Files
-.vscode
+.vscode/mcp.json
 
 # Weather MCP Server App
 weather/

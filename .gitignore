@@ -1,0 +1,14 @@
+# Environment Variables
+.env
+
+# Virtual Environment Directories
+venv/
+env/
+.venv/
+ENV/
+
+# VSCODE Configuration Files
+.vscode
+
+# Weather MCP Server App
+weather/

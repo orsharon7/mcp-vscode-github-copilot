@@ -11,7 +11,9 @@ Model Context Protocol (MCP) addresses a fundamental limitation in modern Large 
 - **Enable real-time interactions** with internal systems and APIs
 - **Implement authentication and authorization** for secure use of enterprise resources
 
-Our implementation demonstrates this capability by building a weather information server that exposes two technically robust tools:
+For implementation reference and available MCP servers, check the official [MCP servers repository](https://github.com/modelcontextprotocol/servers). This repository centralizes MCP server implementations from various providers, offering a standardized way to extend AI capabilities with custom tools.
+
+Our demonstration implements a weather information server that exposes two technically robust tools:
 - `get-alerts`: Fetches active weather alerts for any US state through authenticated API calls
 - `get-forecast`: Retrieves detailed meteorological data by precise geospatial coordinates
 

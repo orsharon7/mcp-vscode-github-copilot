@@ -40,6 +40,7 @@ The MCP architecture enables secure, controlled access to enterprise systems and
 
 
 ## Technical Implementation Guide
+> Full sample can be found in [weather-sample directory](/weather-sample)
 
 ### 1. Install UV Package Manager and Set Up Python Environment
 

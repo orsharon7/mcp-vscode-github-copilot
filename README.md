@@ -238,6 +238,10 @@ Once your MCP server infrastructure is properly configured, your AI assistant ca
 
 ![GitHub Copilot Using MCP Tools](media/Chat_MCP.png)
 
+## GitHub Copilot Masterclass
+
+Enjoyed this exercise? Take your skills to the next level with the [GitHub Copilot Masterclass](https://github.com/orsharon7/github-copilot-masterclass). In this course, you'll build a complete application from an image and create an MCP server with "Steve Jobs" as your virtual Product Manager, guiding you to design and implement innovative features.
+
 ## Enterprise Integration and Technical Resources
 - [GitHub MCP Server Implementation Repository](https://github.com/github/github-mcp-server)
 - [Model Context Protocol Technical Specification](https://modelcontextprotocol.io/introduction)
